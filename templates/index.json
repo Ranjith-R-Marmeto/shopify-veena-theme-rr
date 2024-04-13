@@ -376,6 +376,18 @@
         "padding_bottom": 36
       }
     },
+    "custom_countdown_timer_xFU8H3": {
+      "type": "custom-countdown-timer",
+      "settings": {
+        "heading": "Our Women's Clothing Collection",
+        "description": "<p>where fashion meets flair, and every outfit becomes a statement.<\/p>",
+        "button_label": "View All",
+        "button_link": "",
+        "text_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "multicolumn_VYr47A": {
       "type": "multicolumn",
       "blocks": {
@@ -402,6 +414,7 @@
         "column_RaJEbU",
         "column_CcgaFD"
       ],
+      "disabled": true,
       "settings": {
         "title": "Multicolumn",
         "heading_size": "h1",
@@ -802,18 +815,6 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
-    },
-    "custom_countdown_timer_xFU8H3": {
-      "type": "custom-countdown-timer",
-      "settings": {
-        "heading": "Our Women's Clothing Collection",
-        "description": "<p>where fashion meets flair, and every outfit becomes a statement.<\/p>",
-        "button_label": "View All",
-        "button_link": "",
-        "text_alignment": "left",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
     }
   },
   "order": [
@@ -825,6 +826,7 @@
     "collection_list_f7rVEj",
     "collection_list_8DHfGY",
     "multicolumn_CQ86cF",
+    "custom_countdown_timer_xFU8H3",
     "multicolumn_VYr47A",
     "collection_list_LCNV7R",
     "multicolumn_w6bJHk",
@@ -833,7 +835,6 @@
     "multicolumn_yBMQW9",
     "featured_blog_EjQaFR",
     "featured_blog_Hjiahr",
-    "collapsible_content_GBQj8j",
-    "custom_countdown_timer_xFU8H3"
+    "collapsible_content_GBQj8j"
   ]
 }
