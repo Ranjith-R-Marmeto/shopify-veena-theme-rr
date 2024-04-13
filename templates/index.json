@@ -802,6 +802,18 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "custom_countdown_timer_xFU8H3": {
+      "type": "custom-countdown-timer",
+      "settings": {
+        "heading": "Our Women's Clothing Collection",
+        "description": "<p>where fashion meets flair, and every outfit becomes a statement.<\/p>",
+        "button_label": "View All",
+        "button_link": "",
+        "text_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
@@ -821,6 +833,7 @@
     "multicolumn_yBMQW9",
     "featured_blog_EjQaFR",
     "featured_blog_Hjiahr",
-    "collapsible_content_GBQj8j"
+    "collapsible_content_GBQj8j",
+    "custom_countdown_timer_xFU8H3"
   ]
 }
