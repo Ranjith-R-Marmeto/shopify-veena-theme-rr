@@ -1,0 +1,73 @@
+{{ "custom-durex.css" | asset_url | stylesheet_tag }}
+
+<div class="main-title-container">
+    <h3 class="main-heading">{{section.settings.heading}}</h3>
+</div>
+
+<div class="img-outer-container">
+    <img src="{{ 'triplet-hearts.png' | asset_url }}" class="heart-logo" alt="Heart Logo" height=auto width=auto>
+    <div class="img-container">
+        {% for block in section.blocks %}
+            <div class="cont">
+                <div class="event-container">
+                <img src="{{ block.settings.image_desktop  | image_url}}"  class="event-img" alt="event img" width=250px height=200px>
+                    <img  src="{{ block.settings.dashed_line_img | image_url}}"  class="dashed-line" alt="dashed line" width=auto height=auto>
+                    <div class="year">
+                        <img src="{{ block.settings.image_mobile   | image_url}}" class="year-img" alt="year img" width=100px height=100px >
+                        <img src="{{ block.settings.vertical_line_img | image_url}}" class="vertical-img" alt="line" width=auto height=auto>
+                    </div>
+                </div>
+            </div>
+        {% endfor %}
+    </div>
+    <img src="{{ 'triplet-hearts.png' | asset_url }}" class="heart-2-logo" alt="Heart Logo" height=auto width=auto>
+</div>
+
+{% schema %}
+    {
+        "name": "Custom Durex",
+        "tag": "section",
+        "class": "section",
+        "settings": [
+            {
+                "type": "text",
+                "id": "heading",
+                "label": "Heading",
+                "default": "History of Durex"
+            }
+        ],
+        "blocks": [
+            {
+                "type": "custom-block",
+                "name": "custom-block",
+                "settings": [
+                    {
+                        "type": "image_picker",
+                        "id": "image_desktop",
+                        "label": "Event image"
+                      },
+                      {
+                        "type": "image_picker",
+                        "id": "image_mobile",
+                        "label": "Year image"
+                      },
+                      {
+                        "type": "image_picker",
+                        "id": "dashed_line_img",
+                        "label": "Dashed line image"
+                      },
+                      {
+                        "type": "image_picker",
+                        "id": "vertical_line_img",
+                        "label": "Vertical line image"
+                      }
+                ]
+            }
+        ],
+        "presets": [
+          {
+            "name": "Custom Durex"
+          }
+        ]
+    }
+{% endschema %} 
