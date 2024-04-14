@@ -14,91 +14,89 @@
     }
 {% endstyle %}
 
-
 <div class="featured-brands padding-{{section.id}} ">
-    <div class="page-width">
-          <div class="featured-brands__grid">
-            {% if section.blocks.size > 0  %}
-              {% for block in section.blocks %}                    
-                    {% if block.settings.image != blank %}
-                      <div class="featured-brands__image">
-                        {% render 'image' , desktopImage: block.settings.image %}
-                      </div>   
-                    {% else %} 
-                      <div class = "small-placeholder-image">                       
-                        {{ 'image' | placeholder_svg_tag }}    
-                      </div>  
-                    {% endif %}  
-                                    
-              {% endfor %}  
-            {% else %}
-              {% for i in (1..8) %}
-                  <li class="splide__slide small-placeholder-image">
-                      {{ 'image' | placeholder_svg_tag }}
-                  </li> 
-              {% endfor %}                   
-            {% endif %}  
-          </div>
-    </div>
+      <div class="page-vidth">
+            <div class="featured-brands__grid">
+              {% if section.blocks.size > 0  %}
+                {% for block in section.blocks %}                    
+                      {% if block.settings.image != blank %}
+                        <div class="featured-brands__image">
+                          {% render "image" , desktopImage: block.settings.image %}
+                        </div>   
+                      {% else %} 
+                        <div class = "small-placeholder-image">                       
+                          {{ 'image' | placeholder_svg_tag }}    
+                        </div>  
+                      {% endif %}  
+                                      
+                {% endfor %}  
+              {% else %}
+                {% for i in (1..8) %}
+                    <li class="splide__slide small-placeholder-image">
+                        {{ 'image' | placeholder_svg_tag }}
+                    </li> 
+                {% endfor %}                   
+              {% endif %}  
+            </div>
+      </div>
 </div>
-
+  
 
 <div class="featured-brands-mobile padding-{{section.id}} ">
-    <div class="featured-brands-mobile__section">
-      <div class="page-width">
-          <splide-slider data-splide-options = '{
-              "type" : "{{ section.settings.slide_animation }}",
-              "perPage": 3,
-              "gap": "20px",
-              "pagination": {{ section.settings.show_pagination }},
-              "perMove": 1,
-              "autoplay": {{ section.settings.autoplay }} ,    
-              "interval": {{ section.settings.autoplay_duration }},
-              "arrows" : {{  section.settings.slide_arrows }},
-              "rewind" : {{ section.settings.infinite_scroll }}
-          }'>
-                
-                <section class="splide " aria-label="Splide Basic HTML Example">
-                  <div class="splide__track">
-                      <ul class="splide__list ">
-                       {% if section.blocks.size > 0  %}
-                          {% for block in section.blocks %}
-                              <li class="splide__slide ">
-                                  {%- if block.settings.image != blank -%}
-                                      <div class = "featured-brands__image">
-                                          {%
-                                          render 'image',
-                                          desktopImage: block.settings.image,
-                                          mobileImage: block.settings.image                                
-                                          %}
-                                      </div>
-                                  {% else %}
-                                      <li class="splide__slide">
-                                      {{ 'image' | placeholder_svg_tag }}
-                                      </li>  
-                                  {%- endif -%}   
-                              </li>                          
-                          {% endfor %}
-                      {% else %}
-                          {% for i in (1..3) %}
-                              <li class="splide__slide small-placeholder-image">
-                                  {{ 'product-' | append: i | placeholder_svg_tag }}
-                              </li> 
-                          {% endfor %}            
-                      {%- endif -%}   
-                      </ul>
-                  </div>
-                </section>
-            </splide-slider>
-      </div>
+  <div class="featured-brands-mobile__section">
+    <div class="page-width">
+        <splide-slider data-splide-options = '{
+            "type" : "{{ section.settings.slide_animation }}",
+            "perPage": 3,
+            "gap": "20px",
+            "pagination": {{ section.settings.show_pagination }},
+            "perMove": 1,
+            "autoplay": {{ section.settings.autoplay }} ,    
+            "interval": {{ section.settings.autoplay_duration }},
+            "arrows" : {{  section.settings.slide_arrows }},
+            "rewind" : {{ section.settings.infinite_scroll }}
+        }'>
+              
+              <section class="splide " aria-label="Splide Basic HTML Example">
+                <div class="splide__track">
+                    <ul class="splide__list ">
+                     {% if section.blocks.size > 0  %}
+                        {% for block in section.blocks %}
+                            <li class="splide__slide ">
+                                {%- if block.settings.image != blank -%}
+                                    <div class = "featured-brands__image">
+                                        {%
+                                        render 'image',
+                                        desktopImage: block.settings.image,
+                                        mobileImage: block.settings.image                                
+                                        %}
+                                    </div>
+                                {% else %}
+                                    <li class="splide__slide">
+                                    {{ 'image' | placeholder_svg_tag }}
+                                    </li>  
+                                {%- endif -%}   
+                            </li>                          
+                        {% endfor %}
+                    {% else %}
+                        {% for i in (1..3) %}
+                            <li class="splide__slide small-placeholder-image">
+                                {{ 'product-' | append: i | placeholder_svg_tag }}
+                            </li> 
+                        {% endfor %}            
+                    {%- endif -%}   
+                    </ul>
+                </div>
+              </section>
+          </splide-slider>
     </div>
   </div>
-  
+</div>
 
 
 {% schema %}
   {
-    "name": "Custom Featured Brands",
+    "name": "Featured Brands",
     "tag": "section",
     "settings": [
         {
@@ -199,8 +197,8 @@
     ],
     "presets":[
       {
-        "name": "Custom Featured Brands"
+        "name": "Featured Brands"
       }
     ]
   }
-{% endschema %} 
+{% endschema %}
