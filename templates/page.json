@@ -67,6 +67,10 @@
         "custom_block_wjTVbw": {
           "type": "custom-block",
           "settings": {
+            "image_desktop": "shopify:\/\/shop_images\/Group_1000002364_6_aee676db-4025-4f7d-8fda-07b3ce5f87d5.png",
+            "image_mobile": "shopify:\/\/shop_images\/Group_1000002353.png",
+            "dashed_line_img": "shopify:\/\/shop_images\/Line_42_2.png",
+            "vertical_line_img": "shopify:\/\/shop_images\/Rectangle_3358.png"
           }
         }
       },
