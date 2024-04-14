@@ -6,9 +6,66 @@
         "padding_top": 28,
         "padding_bottom": 28
       }
+    },
+    "custom_durex_XymFJj": {
+      "type": "custom-durex",
+      "blocks": {
+        "custom_block_agy4E3": {
+          "type": "custom-block",
+          "settings": {
+            "image_desktop": "shopify:\/\/shop_images\/Group_1000002364.png",
+            "image_mobile": "shopify:\/\/shop_images\/Group_1000002347.png",
+            "dashed_line_img": "shopify:\/\/shop_images\/Line_42_2.png",
+            "vertical_line_img": "shopify:\/\/shop_images\/Rectangle_3358.png"
+          }
+        },
+        "custom_block_YPTeLT": {
+          "type": "custom-block",
+          "settings": {
+          }
+        },
+        "custom_block_U8nQDr": {
+          "type": "custom-block",
+          "settings": {
+          }
+        },
+        "custom_block_p7V3b7": {
+          "type": "custom-block",
+          "settings": {
+          }
+        },
+        "custom_block_x3abik": {
+          "type": "custom-block",
+          "settings": {
+          }
+        },
+        "custom_block_UrkWyw": {
+          "type": "custom-block",
+          "settings": {
+          }
+        },
+        "custom_block_wjTVbw": {
+          "type": "custom-block",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "custom_block_agy4E3",
+        "custom_block_YPTeLT",
+        "custom_block_U8nQDr",
+        "custom_block_p7V3b7",
+        "custom_block_x3abik",
+        "custom_block_UrkWyw",
+        "custom_block_wjTVbw"
+      ],
+      "settings": {
+        "heading": "History of Durex"
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "custom_durex_XymFJj"
   ]
 }
