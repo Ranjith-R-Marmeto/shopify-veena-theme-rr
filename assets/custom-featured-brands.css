@@ -35,4 +35,8 @@
     .featured-brands{
       display:none;
     }
+    .featured-brands-mobile__section .splide__list{
+      display: flex;
+      list-style-type: none;
+    }
   }

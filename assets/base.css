@@ -3521,6 +3521,7 @@ details-disclosure > details {
 /* custom button css  */
 .custom-button-secondary_color {
   display: flex;
+  
   justify-content: center;
   align-items: center;
   border-radius: 10rem;
