@@ -31,6 +31,10 @@
         "custom_block_nWNjQg": {
           "type": "custom-block",
           "settings": {
+            "image_desktop": "shopify:\/\/shop_images\/Group_1000002364_2_5f53b988-eb32-439f-a5a6-3b794e2539e7.png",
+            "image_mobile": "shopify:\/\/shop_images\/Group_1000002349.png",
+            "dashed_line_img": "shopify:\/\/shop_images\/Line_42_2.png",
+            "vertical_line_img": "shopify:\/\/shop_images\/Rectangle_3358.png"
           }
         },
         "custom_block_U8nQDr": {
