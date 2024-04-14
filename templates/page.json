@@ -22,6 +22,15 @@
         "custom_block_YPTeLT": {
           "type": "custom-block",
           "settings": {
+            "image_desktop": "shopify:\/\/shop_images\/Group_1000002364_1_aa027262-09d4-4025-b98a-f2630aee39d6.png",
+            "image_mobile": "shopify:\/\/shop_images\/Group_1000002348.png",
+            "dashed_line_img": "shopify:\/\/shop_images\/Line_42_2.png",
+            "vertical_line_img": "shopify:\/\/shop_images\/Rectangle_3358.png"
+          }
+        },
+        "custom_block_nWNjQg": {
+          "type": "custom-block",
+          "settings": {
           }
         },
         "custom_block_U8nQDr": {
@@ -53,6 +62,7 @@
       "block_order": [
         "custom_block_agy4E3",
         "custom_block_YPTeLT",
+        "custom_block_nWNjQg",
         "custom_block_U8nQDr",
         "custom_block_p7V3b7",
         "custom_block_x3abik",
