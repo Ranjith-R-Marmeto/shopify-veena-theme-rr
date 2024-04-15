@@ -678,6 +678,79 @@
         "padding_bottom": 36
       }
     },
+    "custom_feature_brand_xKyBgq": {
+      "type": "custom-feature-brand",
+      "blocks": {
+        "featured_brands_PCVRrw": {
+          "type": "featured-brands",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/1_cd395017-1471-444b-a792-aee354390d67.png"
+          }
+        },
+        "featured_brands_qUEcgW": {
+          "type": "featured-brands",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/2_26caca81-ef1b-413a-b2e8-dacb4042a47f.png"
+          }
+        },
+        "featured_brands_L6aNPU": {
+          "type": "featured-brands",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/3_526ac6af-9bcf-4f5a-a1f0-3b004c6d93b3.png"
+          }
+        },
+        "featured_brands_c8fReL": {
+          "type": "featured-brands",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/6.png"
+          }
+        },
+        "featured_brands_Pwh7HY": {
+          "type": "featured-brands",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/5.png"
+          }
+        },
+        "featured_brands_9cKgNE": {
+          "type": "featured-brands",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/8.png"
+          }
+        },
+        "featured_brands_6cRph6": {
+          "type": "featured-brands",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/7.png"
+          }
+        },
+        "featured_brands_d6HJGF": {
+          "type": "featured-brands",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/4_97056f97-b5a0-46f5-aa2e-d315f39f0bde_1.png"
+          }
+        }
+      },
+      "block_order": [
+        "featured_brands_PCVRrw",
+        "featured_brands_qUEcgW",
+        "featured_brands_L6aNPU",
+        "featured_brands_c8fReL",
+        "featured_brands_Pwh7HY",
+        "featured_brands_9cKgNE",
+        "featured_brands_6cRph6",
+        "featured_brands_d6HJGF"
+      ],
+      "settings": {
+        "autoplay": true,
+        "show_pagination": false,
+        "slide_arrows": false,
+        "infinite_scroll": false,
+        "slide_animation": "loop",
+        "autoplay_duration": 5000,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "multicolumn_yBMQW9": {
       "type": "multicolumn",
       "blocks": {
@@ -815,79 +888,6 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
-    },
-    "custom_feature_brand_xKyBgq": {
-      "type": "custom-feature-brand",
-      "blocks": {
-        "featured_brands_PCVRrw": {
-          "type": "featured-brands",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/1_cd395017-1471-444b-a792-aee354390d67.png"
-          }
-        },
-        "featured_brands_qUEcgW": {
-          "type": "featured-brands",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/2_26caca81-ef1b-413a-b2e8-dacb4042a47f.png"
-          }
-        },
-        "featured_brands_L6aNPU": {
-          "type": "featured-brands",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/3_526ac6af-9bcf-4f5a-a1f0-3b004c6d93b3.png"
-          }
-        },
-        "featured_brands_c8fReL": {
-          "type": "featured-brands",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/6.png"
-          }
-        },
-        "featured_brands_Pwh7HY": {
-          "type": "featured-brands",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/5.png"
-          }
-        },
-        "featured_brands_9cKgNE": {
-          "type": "featured-brands",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/8.png"
-          }
-        },
-        "featured_brands_6cRph6": {
-          "type": "featured-brands",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/7.png"
-          }
-        },
-        "featured_brands_d6HJGF": {
-          "type": "featured-brands",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/4_97056f97-b5a0-46f5-aa2e-d315f39f0bde_1.png"
-          }
-        }
-      },
-      "block_order": [
-        "featured_brands_PCVRrw",
-        "featured_brands_qUEcgW",
-        "featured_brands_L6aNPU",
-        "featured_brands_c8fReL",
-        "featured_brands_Pwh7HY",
-        "featured_brands_9cKgNE",
-        "featured_brands_6cRph6",
-        "featured_brands_d6HJGF"
-      ],
-      "settings": {
-        "autoplay": true,
-        "show_pagination": false,
-        "slide_arrows": false,
-        "infinite_scroll": false,
-        "slide_animation": "loop",
-        "autoplay_duration": 5000,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
     }
   },
   "order": [
@@ -905,10 +905,10 @@
     "multicolumn_w6bJHk",
     "image_banner_GCQ9dD",
     "multicolumn_yVYJTd",
+    "custom_feature_brand_xKyBgq",
     "multicolumn_yBMQW9",
     "featured_blog_EjQaFR",
     "featured_blog_Hjiahr",
-    "collapsible_content_GBQj8j",
-    "custom_feature_brand_xKyBgq"
+    "collapsible_content_GBQj8j"
   ]
 }
