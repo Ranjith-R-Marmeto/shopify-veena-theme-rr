@@ -767,6 +767,7 @@
       "block_order": [
         "column_L4WyTA"
       ],
+      "disabled": true,
       "settings": {
         "title": "Multicolumn",
         "heading_size": "h1",
