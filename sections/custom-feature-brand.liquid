@@ -15,7 +15,7 @@
 {% endstyle %}
 
 <div class="featured-brands padding-{{section.id}} ">
-      <div class="page-vidth">
+      <div class="page-width">
             <div class="featured-brands__grid">
               {% if section.blocks.size > 0  %}
                 {% for block in section.blocks %}                    
@@ -48,7 +48,7 @@
         <splide-slider data-splide-options = '{
             "type" : "{{ section.settings.slide_animation }}",
             "perPage": 3,
-            "gap": "40px",
+            "gap": "20px",
             "pagination": {{ section.settings.show_pagination }},
             "perMove": 1,
             "autoplay": {{ section.settings.autoplay }} ,    
@@ -96,7 +96,7 @@
 
 {% schema %}
   {
-    "name": "Featured Brands",
+    "name": "Custom Featured Brands",
     "tag": "section",
     "settings": [
         {
@@ -197,7 +197,7 @@
     ],
     "presets":[
       {
-        "name": "Featured Brands"
+        "name": "Custom Featured Brands"
       }
     ]
   }
