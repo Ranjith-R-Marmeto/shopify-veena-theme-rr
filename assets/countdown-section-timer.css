@@ -43,15 +43,7 @@
   .custom-countdown-timer__stamp {
     font-size: 16px;
     font-weight: 400;
-  }
-  /* .custom-button-secondary_color ::before{
-    height: 45px;
-    width: auto;
-    background-color: black;
-    border-radius: 12px ;
-  } */
-
-  
+  }  
   @media screen and (max-width: 750px) {
     .custom-countdown-timer__wrapper {
       display: flex;
