@@ -1,0 +1,62 @@
+{{ 'animated-richtext.css' | asset_url | stylesheet_tag }}
+<script src="{{ 'animated-richtext.js' | asset_url }}" defer></script>
+
+<section class="animated-rich-text-container">
+  <div class="animated-rich-inner-container">
+    <!-- Small Heading -->
+    <div class="animated-rich-text-small-heading">{{ section.settings.small_heading }}</div>
+
+    <!-- Description -->
+    <div class="animated-rich-text-description">
+      {{ section.settings.description -}}
+      <div>
+        <span class="animated-text">
+          <span>L</span><span>a</span><span>n</span><span>g</span><span>u</span><span>a</span><span>g</span
+          ><span>e</span>
+        </span>
+      </div>
+    </div>
+
+    <!-- Button -->
+    <a href="{{ section.settings.button_link }}" class="animated-button"
+      ><span class="animated-button-label">{{ section.settings.button_label }}</span></a
+    >
+  </div>
+</section>
+
+{% schema %}
+{
+  "name": "Customizable Section",
+  "settings": [
+    {
+      "type": "text",
+      "id": "small_heading",
+      "label": "Small Heading",
+      "default": "Your Heading Here"
+    },
+    {
+      "type": "textarea",
+      "id": "description",
+      "label": "Description",
+      "default": "Your description here."
+    },
+    {
+      "type": "text",
+      "id": "button_label",
+      "label": "Button Label",
+      "default": "Click Me!"
+    },
+    {
+      "type": "url",
+      "id": "button_link",
+      "label": "Button Link"
+    }
+  ],
+  "presets": [
+    {
+      "name": "animated-rich-text",
+      "category": "Custom"
+    }
+  ]
+}
+{% endschema %}
