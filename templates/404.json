@@ -33,10 +33,11 @@
         "slide_TGzERP": {
           "type": "slide",
           "settings": {
-            "heading": "Business Formal Choices",
-            "description": "Explore our new arrivals of business formal wear.",
+            "image_desktop": "shopify:\/\/shop_images\/3.png",
+            "heading": "Modern Elegance",
+            "description": "Step into the World of Style with the Latest Fashion Trends Unveiled!",
             "button_label": "Explore Now",
-            "text_alignment": "left",
+            "text_alignment": "center",
             "content_position": "left"
           }
         }
