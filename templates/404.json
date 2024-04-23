@@ -2,6 +2,7 @@
   "sections": {
     "main": {
       "type": "main-404",
+      "disabled": true,
       "settings": {
       }
     },
@@ -38,7 +39,7 @@
             "description": "Step into the World of Style with the Latest Fashion Trends Unveiled!",
             "button_label": "Explore Now",
             "text_alignment": "left",
-            "content_position": "left"
+            "content_position": "center"
           }
         }
       },
