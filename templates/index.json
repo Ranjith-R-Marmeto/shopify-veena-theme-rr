@@ -257,6 +257,7 @@
         "column_4RPEKh",
         "column_AJLqpe"
       ],
+      "disabled": true,
       "settings": {
         "title": "Multicolumn",
         "heading_size": "h1",
