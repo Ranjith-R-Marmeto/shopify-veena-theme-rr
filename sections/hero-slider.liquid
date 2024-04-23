@@ -1,0 +1,110 @@
+{{ 'hero-slider.css' | asset_url | stylesheet_tag }}
+<script src="{{ 'hero-slider.js' | asset_url }}" defer></script>
+
+<div class="hero-slider">
+  {% for block in section.blocks %}
+    <div
+      class="slide {% if forloop.first %}active{% endif %}"
+      style="background-image: url('{{ block.settings.image_desktop | img_url: '1440x600' }}');"
+    >
+      <div class="slide-content {{ block.settings.content_position }}">
+        <div class="glassmorph-heading"><span class="bullet">•</span>{{ block.settings.heading }}</div>
+        <div class="slide-content-description {{ block.settings.text_alignment }}">
+          {{ block.settings.description }}
+        </div>
+        <a href="#" class="button-slider-button">{{ block.settings.button_label }}</a>
+      </div>
+    </div>
+  {% endfor %}
+  <div class="slider-controls">
+    <button class="prev-slide">&#10094;</button>
+    <button class="next-slide">&#10095;</button>
+    <div class="slide-dots">
+      {% for block in section.blocks %}
+        <span
+          class="dot {% if forloop.first %}active-dot{% endif %}"
+          onclick="currentSlide({{ forloop.index0 }})"
+        ></span>
+      {% endfor %}
+    </div>
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "Hero Slider",
+  "tag": "section",
+  "class": "hero-slider",
+  "settings": [],
+  "blocks": [
+    {
+      "type": "slide",
+      "name": "Slide",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "image_desktop",
+          "label": "Desktop Image",
+          "info": "Recommended dimensions: 1440 x 600"
+        },
+        {
+          "type": "text",
+          "id": "heading",
+          "label": "Heading",
+          "default": "Business Formal Choices"
+        },
+        {
+          "type": "text",
+          "id": "description",
+          "label": "Description",
+          "default": "Explore our new arrivals of business formal wear."
+        },
+        {
+          "type": "text",
+          "id": "button_label",
+          "label": "Button Label",
+          "default": "Explore Now"
+        },
+        {
+          "type": "select",
+          "id": "text_alignment",
+          "label": "Text Alignment",
+          "options": [
+            {
+              "value": "left",
+              "label": "Left"
+            },
+            {
+              "value": "center",
+              "label": "Center"
+            }
+          ],
+          "default": "center"
+        },
+        {
+          "type": "select",
+          "id": "content_position",
+          "label": "Content Position",
+          "options": [
+            {
+              "value": "left",
+              "label": "Left"
+            },
+            {
+              "value": "center",
+              "label": "Center"
+            }
+          ],
+          "default": "center"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Hero Section",
+      "category": "Image"
+    }
+  ]
+}
+{% endschema %}
