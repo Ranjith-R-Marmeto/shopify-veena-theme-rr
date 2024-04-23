@@ -22,11 +22,12 @@
         "slide_Yq8Jwm": {
           "type": "slide",
           "settings": {
-            "heading": "Business Formal Choices",
-            "description": "Explore our new arrivals of business formal wear.",
-            "button_label": "Explore Now",
-            "text_alignment": "center",
-            "content_position": "center"
+            "image_desktop": "shopify:\/\/shop_images\/4.png",
+            "heading": "Trendy Classics",
+            "description": "Discover Signature Look: Fashion Forward and Fabulous!",
+            "button_label": "Shop Now",
+            "text_alignment": "left",
+            "content_position": "left"
           }
         },
         "slide_TGzERP": {
@@ -35,8 +36,8 @@
             "heading": "Business Formal Choices",
             "description": "Explore our new arrivals of business formal wear.",
             "button_label": "Explore Now",
-            "text_alignment": "center",
-            "content_position": "center"
+            "text_alignment": "left",
+            "content_position": "left"
           }
         }
       },
