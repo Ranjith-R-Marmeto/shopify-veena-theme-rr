@@ -195,6 +195,40 @@
         "padding_bottom": 52
       }
     },
+    "custom_section_ztWpPH": {
+      "type": "custom-section",
+      "blocks": {
+        "custom_block_H73Ucr": {
+          "type": "custom-block",
+          "settings": {
+            "image_desktop": "shopify:\/\/shop_images\/Rectangle_4264.png",
+            "image_mobile": "shopify:\/\/shop_images\/Rectangle_4264.png",
+            "pre_heading": "Women's",
+            "title": "<h3>Women's Clothing Collection<\/h3>",
+            "button_label": "Explore",
+            "button_link": ""
+          }
+        },
+        "custom_block_jkhPLd": {
+          "type": "custom-block",
+          "settings": {
+            "image_desktop": "shopify:\/\/shop_images\/Rectangle_4265.png",
+            "image_mobile": "shopify:\/\/shop_images\/Rectangle_4265.png",
+            "pre_heading": "Fashion",
+            "title": "<h3>Women's Sustainable Style Hub<\/h3>",
+            "button_label": "Explore",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "custom_block_H73Ucr",
+        "custom_block_jkhPLd"
+      ],
+      "settings": {
+        "heading": "Business Formal Choices"
+      }
+    },
     "multicolumn_w3AiHW": {
       "type": "multicolumn",
       "blocks": {
@@ -1031,40 +1065,6 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
-    },
-    "custom_section_ztWpPH": {
-      "type": "custom-section",
-      "blocks": {
-        "custom_block_H73Ucr": {
-          "type": "custom-block",
-          "settings": {
-            "image_desktop": "shopify:\/\/shop_images\/Rectangle_4264.png",
-            "image_mobile": "shopify:\/\/shop_images\/Rectangle_4264.png",
-            "pre_heading": "Women's",
-            "title": "<h3>Women's Clothing Collection<\/h3>",
-            "button_label": "Explore",
-            "button_link": ""
-          }
-        },
-        "custom_block_jkhPLd": {
-          "type": "custom-block",
-          "settings": {
-            "image_desktop": "shopify:\/\/shop_images\/Rectangle_4265.png",
-            "image_mobile": "shopify:\/\/shop_images\/Rectangle_4265.png",
-            "pre_heading": "Fashion",
-            "title": "<h3>Women's Sustainable Style Hub<\/h3>",
-            "button_label": "Explore",
-            "button_link": ""
-          }
-        }
-      },
-      "block_order": [
-        "custom_block_H73Ucr",
-        "custom_block_jkhPLd"
-      ],
-      "settings": {
-        "heading": "Business Formal Choices"
-      }
     }
   },
   "order": [
@@ -1073,6 +1073,7 @@
     "slideshow_riMjXE",
     "animated_rich_text_eV8PUz",
     "rich_text_Wjqgiw",
+    "custom_section_ztWpPH",
     "multicolumn_w3AiHW",
     "captivating_collection_MKW3YD",
     "collection_list_f7rVEj",
@@ -1089,7 +1090,6 @@
     "multicolumn_yBMQW9",
     "featured_blog_EjQaFR",
     "featured_blog_Hjiahr",
-    "collapsible_content_GBQj8j",
-    "custom_section_ztWpPH"
+    "collapsible_content_GBQj8j"
   ]
 }
