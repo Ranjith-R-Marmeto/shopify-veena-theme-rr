@@ -4,9 +4,53 @@
       "type": "main-404",
       "settings": {
       }
+    },
+    "hero_slider_tdxWPe": {
+      "type": "hero-slider",
+      "blocks": {
+        "slide_TwKYgx": {
+          "type": "slide",
+          "settings": {
+            "image_desktop": "shopify:\/\/shop_images\/1.png",
+            "heading": "Women's Apparel",
+            "description": "Elevate your wardrobe with our limited-time fashion offer!",
+            "button_label": "Explore Now",
+            "text_alignment": "center",
+            "content_position": "center"
+          }
+        },
+        "slide_Yq8Jwm": {
+          "type": "slide",
+          "settings": {
+            "heading": "Business Formal Choices",
+            "description": "Explore our new arrivals of business formal wear.",
+            "button_label": "Explore Now",
+            "text_alignment": "center",
+            "content_position": "center"
+          }
+        },
+        "slide_TGzERP": {
+          "type": "slide",
+          "settings": {
+            "heading": "Business Formal Choices",
+            "description": "Explore our new arrivals of business formal wear.",
+            "button_label": "Explore Now",
+            "text_alignment": "center",
+            "content_position": "center"
+          }
+        }
+      },
+      "block_order": [
+        "slide_TwKYgx",
+        "slide_Yq8Jwm",
+        "slide_TGzERP"
+      ],
+      "settings": {
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "hero_slider_tdxWPe"
   ]
 }
