@@ -990,16 +990,42 @@
         "usp_block_EGeEFp": {
           "type": "usp-block",
           "settings": {
-            "heading": "Business Formal Choices",
-            "description": "<p>Business Formal Choices<\/p>",
-            "button_label": "Explore",
+            "image_desktop": "shopify:\/\/shop_images\/svgviewer-output_1.svg",
+            "image_mobile": "shopify:\/\/shop_images\/svgviewer-output_1.svg",
+            "heading": "Return shipping",
+            "description": "<p>return shipping costs unless the item received is damaged, defective, or incorrect.<\/p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "usp_block_3ebpH4": {
+          "type": "usp-block",
+          "settings": {
+            "image_desktop": "shopify:\/\/shop_images\/svgviewer-output_2.svg",
+            "image_mobile": "shopify:\/\/shop_images\/svgviewer-output_2.svg",
+            "heading": "secure payment",
+            "description": "<p>We accept a variety of secure payment methods, including major credit cards.<\/p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "usp_block_PtExba": {
+          "type": "usp-block",
+          "settings": {
+            "image_desktop": "shopify:\/\/shop_images\/svgviewer-output_3.svg",
+            "image_mobile": "shopify:\/\/shop_images\/svgviewer-output_3.svg",
+            "heading": "Help center",
+            "description": "<p>Absolutely, providing 24\/7 support is a great way to enhance customer satisfaction.<\/p>",
+            "button_label": "",
             "button_link": ""
           }
         }
       },
       "block_order": [
         "usp_block_EQcfqU",
-        "usp_block_EGeEFp"
+        "usp_block_EGeEFp",
+        "usp_block_3ebpH4",
+        "usp_block_PtExba"
       ],
       "settings": {
         "heading": "Business Formal Choices"
