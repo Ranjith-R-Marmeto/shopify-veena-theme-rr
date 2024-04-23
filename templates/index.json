@@ -972,6 +972,38 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "usp_section_8YLdHj": {
+      "type": "usp-section",
+      "blocks": {
+        "usp_block_EQcfqU": {
+          "type": "usp-block",
+          "settings": {
+            "image_desktop": "shopify:\/\/shop_images\/svgviewer-output.svg",
+            "image_mobile": "shopify:\/\/shop_images\/svgviewer-output.svg",
+            "heading": "Daily deals",
+            "description": "<p>that bring a touch of excitement to your everyday shopping experience.<\/p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "usp_block_EGeEFp": {
+          "type": "usp-block",
+          "settings": {
+            "heading": "Business Formal Choices",
+            "description": "<p>Business Formal Choices<\/p>",
+            "button_label": "Explore",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "usp_block_EQcfqU",
+        "usp_block_EGeEFp"
+      ],
+      "settings": {
+        "heading": "Business Formal Choices"
+      }
     }
   },
   "order": [
@@ -995,6 +1027,7 @@
     "multicolumn_yBMQW9",
     "featured_blog_EjQaFR",
     "featured_blog_Hjiahr",
-    "collapsible_content_GBQj8j"
+    "collapsible_content_GBQj8j",
+    "usp_section_8YLdHj"
   ]
 }
