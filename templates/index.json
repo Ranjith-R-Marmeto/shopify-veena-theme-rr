@@ -230,6 +230,78 @@
         "padding_bottom": 36
       }
     },
+    "captivating_collection_MKW3YD": {
+      "type": "captivating-collection",
+      "blocks": {
+        "captivating_block_89p8Qm": {
+          "type": "captivating-block",
+          "settings": {
+            "collection": "accessories",
+            "title": "Accessories",
+            "button_label": "Shop Now",
+            "button_link": ""
+          }
+        },
+        "captivating_block_DUWFgT": {
+          "type": "captivating-block",
+          "settings": {
+            "collection": "mens-jacket",
+            "title": "Men's Jacket",
+            "button_label": "Shop Now",
+            "button_link": ""
+          }
+        },
+        "captivating_block_RNxxrh": {
+          "type": "captivating-block",
+          "settings": {
+            "collection": "shoes",
+            "title": "Shoes",
+            "button_label": "Shop Now",
+            "button_link": ""
+          }
+        },
+        "captivating_block_TYkTXq": {
+          "type": "captivating-block",
+          "settings": {
+            "collection": "hand-bags",
+            "title": "Handbags",
+            "button_label": "Shop Now",
+            "button_link": ""
+          }
+        },
+        "captivating_block_Ynf3Dd": {
+          "type": "captivating-block",
+          "settings": {
+            "collection": "best-selling",
+            "title": "Best Selling",
+            "button_label": "Shop Now",
+            "button_link": ""
+          }
+        },
+        "captivating_block_bHhDDq": {
+          "type": "captivating-block",
+          "settings": {
+            "collection": "t-shirt",
+            "title": "T shirt",
+            "button_label": "Shop Now",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "captivating_block_89p8Qm",
+        "captivating_block_DUWFgT",
+        "captivating_block_RNxxrh",
+        "captivating_block_TYkTXq",
+        "captivating_block_Ynf3Dd",
+        "captivating_block_bHhDDq"
+      ],
+      "settings": {
+        "heading": "Captivating Collection",
+        "button_label": "View  All",
+        "button_link": ""
+      }
+    },
     "collection_list_f7rVEj": {
       "type": "collection-list",
       "blocks": {
@@ -278,6 +350,7 @@
         "featured_collection_irJqdm",
         "featured_collection_pA4fBw"
       ],
+      "disabled": true,
       "settings": {
         "title": "Captivating Collection",
         "heading_size": "h1",
@@ -889,78 +962,6 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
-    },
-    "captivating_collection_MKW3YD": {
-      "type": "captivating-collection",
-      "blocks": {
-        "captivating_block_89p8Qm": {
-          "type": "captivating-block",
-          "settings": {
-            "collection": "accessories",
-            "title": "Accessories",
-            "button_label": "Shop Now",
-            "button_link": ""
-          }
-        },
-        "captivating_block_DUWFgT": {
-          "type": "captivating-block",
-          "settings": {
-            "collection": "mens-jacket",
-            "title": "Men's Jacket",
-            "button_label": "Shop Now",
-            "button_link": ""
-          }
-        },
-        "captivating_block_RNxxrh": {
-          "type": "captivating-block",
-          "settings": {
-            "collection": "shoes",
-            "title": "Shoes",
-            "button_label": "Shop Now",
-            "button_link": ""
-          }
-        },
-        "captivating_block_TYkTXq": {
-          "type": "captivating-block",
-          "settings": {
-            "collection": "hand-bags",
-            "title": "Handbags",
-            "button_label": "Shop Now",
-            "button_link": ""
-          }
-        },
-        "captivating_block_Ynf3Dd": {
-          "type": "captivating-block",
-          "settings": {
-            "collection": "best-selling",
-            "title": "Best Selling",
-            "button_label": "Shop Now",
-            "button_link": ""
-          }
-        },
-        "captivating_block_bHhDDq": {
-          "type": "captivating-block",
-          "settings": {
-            "collection": "t-shirt",
-            "title": "T shirt",
-            "button_label": "Shop Now",
-            "button_link": ""
-          }
-        }
-      },
-      "block_order": [
-        "captivating_block_89p8Qm",
-        "captivating_block_DUWFgT",
-        "captivating_block_RNxxrh",
-        "captivating_block_TYkTXq",
-        "captivating_block_Ynf3Dd",
-        "captivating_block_bHhDDq"
-      ],
-      "settings": {
-        "heading": "Captivating Collection",
-        "button_label": "View  All",
-        "button_link": ""
-      }
     }
   },
   "order": [
@@ -969,6 +970,7 @@
     "slideshow_riMjXE",
     "rich_text_Wjqgiw",
     "multicolumn_w3AiHW",
+    "captivating_collection_MKW3YD",
     "collection_list_f7rVEj",
     "collection_list_8DHfGY",
     "multicolumn_CQ86cF",
@@ -982,7 +984,6 @@
     "multicolumn_yBMQW9",
     "featured_blog_EjQaFR",
     "featured_blog_Hjiahr",
-    "collapsible_content_GBQj8j",
-    "captivating_collection_MKW3YD"
+    "collapsible_content_GBQj8j"
   ]
 }
